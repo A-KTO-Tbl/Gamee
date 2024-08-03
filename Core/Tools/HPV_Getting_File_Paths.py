@@ -1,20 +1,16 @@
 from os import path
 from json import load
 
-
-
 def HPV_Get_Accounts() -> dict:
-    '''Получение списка аккаунтов'''
+    '''Get the list of accounts'''
 
     PATH = path.join(path.dirname(path.dirname(path.dirname(path.abspath(__file__)))), 'Core', 'Config', 'HPV_Account.json')
 
     with open(PATH, 'r') as HPV:
         return load(HPV)
 
-
-
 def HPV_Get_Proxy() -> list:
-    '''Получение списка proxy'''
+    '''Get the list of proxies'''
 
     PATH = path.join(path.dirname(path.dirname(path.dirname(path.abspath(__file__)))), 'Core', 'Proxy', 'HPV_Proxy.txt')
     PROXY = []
@@ -29,5 +25,3 @@ def HPV_Get_Proxy() -> list:
                     pass
 
         return PROXY
-
-

@@ -1,16 +1,11 @@
+# Should the WP mining be upgraded
+UPDATE = True  # Set to True if upgrade is needed (default), set to False if not needed
+# The upgrade will happen continuously, depending on whether there are enough tickets for the upgrade
 
+# Desired amount of WP obtained per game. A random value will be chosen within the following ranges
+WPs = [159, 357]  # 159 - minimum value /// 357 - maximum value
+# It is not recommended to set the maximum value above 550! In the best case, the coins will not be credited to the balance, in the worst case, the account will be banned!
 
-# Нужно ли апгрейдить майнинг WP
-UPDATE = True # Если нужно - установите True (стоит по дефолту), если не нужно - установите False
-# Апгрейд будет происходить постоянно, в зависимости от того, хватает ли билетов на улучшение
-
-
-# Желаемое кол-во получаемых WP за одну игру. Рандомным путём будет выбрано значение в следующих диапазонах
-WPs = [159, 357] # 159 - минимальное значение /// 357 - максимальное
-# Ставить максимальное значение выше 550 не рекомендуется! В лучшем случае - монеты не засчитаются на баланс, в худшем - аккаунт забанят!
-
-
-# Желаемое кол-во получаемых COIN за одну игру. Рандомным путём будет выбрано значение в следующих диапазонах
-COINs = [159, 357] # 159 - минимальное значение /// 357 - максимальное
-# Ставить максимальное значение выше 550 не рекомендуется! В лучшем случае - монеты не засчитаются на баланс, в худшем - аккаунт забанят!
-
+# Desired amount of COIN obtained per game. A random value will be chosen within the following ranges
+COINs = [159, 357]  # 159 - minimum value /// 357 - maximum value
+# It is not recommended to set the maximum value above 550! In the best case, the coins will not be credited to the balance, in the worst case, the account will be banned!

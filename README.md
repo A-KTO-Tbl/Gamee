@@ -4,36 +4,36 @@
 
 # 🟣 Gamee AutoBot /// HPV /// V1.07 🟣
 
-| **Возможности**                                                    | **Поддерживается**  |
+| **Features**                                                        | **Supported**  |
 |----------------------------------------------------------------|:---------------:|
-| **Многофункциональный** — *выполняет все те же действия, что вы делали бы руками:*<br>**—** *Разблокировка майнинга при его блокировке*;<br>**—** *Сбор WP при разблокированном майнинге*;<br>**—** *Попытка апгрейда для майнинга WP*;<br>**—** *Получение информации о наличии спинов*;<br>**—** *Прокрутка всех доступных спинов*;<br>**—** *Получение информации о наличии игр*🆕;<br>**—** *Прохождение всех доступных игр*🆕;<br>**—** *Ожидание от 30 до 60 минут*;<br>**—** *Повторение действий через 30-60 минут*. |✅|
-| **Кроссплатформенный** — *скрипт можно запускать на любой платформе, будь то Windows, Linux или Android. Это также позволяет удобно установить его на сервер и просто наблюдать за процессом фарма* |✅|
-| **Многопоточный** — *благодаря использованию технологии потоков, скрипт позволяет одновременно фармить на нескольких аккаунтах. Ограничений по количеству добавленных аккаунтов нет* |✅|
-| **Proxy** — *скрипт поддерживает добавление неограниченного количества прокси-серверов. Даже если количество прокси меньше, чем количество аккаунтов, они будут равномерно распределены между всеми аккаунтами после проверки на валидность. Хотя использование прокси не является обязательным, настоятельно рекомендуется их использование для предотвращения блокировки в Gamee (не в Telegram)* |✅|
-| **Точечная настройка** — *скрипт позволяет включать или отключать автообновление для майнинга WP. По умолчанию установлено значение True, что означает включение автообновления. Однако вы можете отключить его, установив в конфигурации значение False. Также можно настроить желаемое количество монет, получаемых за одну игру. В конфигурации можно указать диапазон чисел, в пределах которого будут начисляться WP и COIN поинты. По умолчанию установлено значение от 159 до 357. Увеличивать максимальное значение выше 550 не рекомендуется! В лучшем случае монеты не будут засчитаны на баланс, в худшем — ваш аккаунт может быть заблокирован в Gamee (не в Telegram)* |✅|
-| **Добавление аккаунтов** — *благодаря моей уникальной технологии, в отличие от других подобных скриптов, вам не нужно возиться с API_ID и API_HASH для каждого аккаунта. Это значительно снижает порог входа, защищает ваш Telegram аккаунт от бана и позволяет сэкономить драгоценное время. Чтобы добавить аккаунт, достаточно указать специальную ссылку, полученную от бота. Подробная инструкция приведена ниже* |✅|
-| **Защита сибилла (ботовода)** — *в мире, где проекты вроде Gamee стремятся блокировать всех ботоводов, моя забота о вашей безопасности не осталась незамеченной. Реализованный с использованием всей мощи Python, скрипт разработан таким образом, чтобы минимизировать риск блокировки фермы аккаунтов. Каждый аккаунт после инициализации получает уникальный User-Agent, делая его невозможным для идентификации как бота. Дополнительно, скрипт случайным образом варьирует время выполнения каждого действия, чтобы симулировать натуральное поведение. И, конечно, есть поддержка прокси для максимальной анонимности и защиты. Вы можете не использовать их, но я настоятельно рекомендую это для вашей безопасности* |✅|
+| **Multifunctional** - *performs the same actions you would do manually:*<br>**—** *Unlocking mining when it is blocked*;<br>**—** *Collecting WP when mining is unlocked*;<br>**—** *Attempting to upgrade WP mining*;<br>**—** *Checking for available spins*;<br>**—** *Scrolling through all available spins*;<br>**—** *Checking for available games*🆕;<br>**—** *Playing all available games*🆕;<br>**—** *Waiting for 30 to 60 minutes*;<br>**—** *Repeating actions every 30-60 minutes*. |✅|
+| **Cross-platform** - *the script can be run on any platform, whether it's Windows, Linux, or Android. This also allows for easy installation on a server and simply monitoring the farming process* |✅|
+| **Multithreaded** - *thanks to the use of threading technology, the script allows farming on multiple accounts simultaneously. There are no limitations on the number of added accounts* |✅|
+| **Proxy** - *the script supports adding an unlimited number of proxy servers. Even if the number of proxies is less than the number of accounts, they will be evenly distributed among all accounts after being checked for validity. Although using proxies is not mandatory, it is strongly recommended to use them to prevent blocking in Gamee (not in Telegram)* |✅|
+| **Fine-tuning** - *the script allows you to enable or disable auto-updates for WP mining. By default, the value is set to True, which means enabling auto-updates. However, you can disable it by setting the value to False in the configuration. You can also configure the desired amount of coins earned per game. In the configuration, you can specify a range of numbers within which WP and COIN points will be credited. The default value is set from 159 to 357. It is not recommended to increase the maximum value above 550! In the best case, the coins will not be credited to the balance, and in the worst case, your account may be blocked in Gamee (not in Telegram)* |✅|
+| **Adding accounts** - *thanks to my unique technology, unlike other similar scripts, you don't need to deal with API_ID and API_HASH for each account. This significantly reduces the entry threshold, protects your Telegram account from being banned, and saves precious time. To add an account, simply specify the special link obtained from the bot. Detailed instructions are provided below* |✅|
+| **Sybil protection (bot detection)** - *in a world where projects like Gamee strive to block all bot users, my concern for your safety has not gone unnoticed. Implemented using the full power of Python, the script is designed to minimize the risk of blocking the farm accounts. Each account receives a unique User-Agent after initialization, making it impossible to identify as a bot. Additionally, the script randomly varies the execution time of each action to simulate natural behavior. And of course, there is support for proxies for maximum anonymity and protection. You can choose not to use them, but I strongly recommend it for your safety* |✅|
 
-**<br>Данный скрипт предназначен исключительно для образовательных целей. Пользуйтесь им ответственно и избегайте злоупотреблений. Вы полностью несете ответственность за всевозможные последствия его использования, включая риск блокировки аккаунта в боте Gamee (не в Telegram)!**
+**<br>This script is intended solely for educational purposes. Use it responsibly and avoid abuse. You are fully responsible for any consequences of its use, including the risk of account blocking in the Gamee bot (not in Telegram)!**
 ***
 </div>
 
-# <br><br>🟡 Обновлено — 31.07.2024 🟡
-- **Исправлен баг с прохождением игр. Теперь игры проигрываются на 100%.<br><br>**
-- **Обновление за 28.07.2024:**
-- - ***Удалён конфиг с ID эвента;<br>***
-- - ***Обновлены все запросы;<br>***
-- - ***Обновлён прокрут спина и исправлен баг;<br>***
-- - ***Обновлён клейм WP;<br>***
-- - ***Обновлён апгрейд майнера WP;<br>***
-- - ***Изменена аутентификация;<br>***
-- - ***Добавлено прохождение игры;<br>***
-- - ***Другие мелкие но немаловажные изменения.***<br><br>
-- **Обновление за 23.07.2024:**
-- - ***Добавлен вывод ошибки о том, что ссылки в конфиге указаны не верно;<br>***
-- - ***Добавлено 7,500 User Agent.<br>***
+# <br><br>🟡 Updated - 31.07.2024 🟡
+- **Fixed a bug with game completion. Now games are played 100%.<br><br>**
+- **Update for 28.07.2024:**
+- - ***Removed the event ID config;<br>***
+- - ***Updated all requests;<br>***
+- - ***Updated spin scrolling and fixed a bug;<br>***
+- - ***Updated WP claim;<br>***
+- - ***Updated WP miner upgrade;<br>***
+- - ***Changed authentication;<br>***
+- - ***Added game completion;<br>***
+- - ***Other minor but important changes.***<br><br>
+- **Update for 23.07.2024:**
+- - ***Added error message for incorrectly specified links in the config;<br>***
+- - ***Added 7,500 User Agents.<br>***
 
-# <br><br>🧬 Предварительная настройка
+# <br><br>🧬 Preliminary Setup
 - **Linux**
   - ```
     apt update && apt upgrade -y
@@ -44,70 +44,71 @@
   - ```
     git clone https://github.com/A-KTO-Tbl/Gamee
     ```
-  - ```
+  - ``` 
     pip3 install -r Gamee\Core\Tools\requirements.txt
     ```
 - **Windows**
-  - Для начала нужно установить [Python](https://www.python.org/downloads/release/python-3103/) (не рекомендуется версию выше 3.10.3) и [Git](https://git-scm.com/download/win);
-  - Создаём папку в любом месте, например на рабочем столе. После чего открываем её;
-  - В верхней части проводника жмём по пути ***([СКРИНШОТ](https://telegra.ph/file/f4695bbc6a7c4e142c758.jpg))***, и вписываем "*CMD*";
-  - Запустится CMD в текущей директории. Далее просто вводим следующие команды:
-    - ```
+  - To begin, you need to install [Python](https://www.python.org/downloads/release/python-3103/) (versions above 3.10.3 are not recommended) and [Git](https://git-scm.com/download/win);
+  - Create a folder anywhere, for example on the desktop. Then open it;
+  - In the top part of the file explorer, click on the path ***([SCREENSHOT](https://telegra.ph/file/f4695bbc6a7c4e142c758.jpg))*** and type "*CMD*";
+  - CMD will open in the current directory. Then simply enter the following commands:
+    - ``` 
       git clone https://github.com/A-KTO-Tbl/Gamee
       ```
-    - ```
+    - ``` 
       pip install -r Gamee\Core\Tools\requirements.txt
       ```
 - **Android**
-  - Для вашего удобства рекомендуется выполнить первоначальную настройку скрипта на ПК. После этого загрузите настроенную версию скрипта на GitHub и клонируйте её в [Termux](https://github.com/termux/termux-app/releases). Затем просто запустите скрипт командой:
-    - ```
+  - For your convenience, it is recommended to perform the initial setup of the script on a PC. After that, download the configured version of the script on GitHub and clone it into [Termux](https://github.com/termux/termux-app/releases). Then simply run the script with the following command:
+    - ``` 
       python HPV_Gamee.py
       ```
 
-# <br>🌐 Настройка Proxy
-- Чтобы добавить прокси, перейдите в раздел ***Core* > *Proxy*** и откройте файл ***HPV_Proxy.txt***. Далее просто введите свои прокси в формате одна строка — один прокси. Поддерживаются протоколы SOCKS5 и HTTPS. Пример добавления прокси можно найти в той же папке ***([СКРИНШОТ](https://telegra.ph/file/828b1caf4e50e522ffb9e.jpg))***.
+# <br>🌐 Proxy Setup
+- To add proxies, go to the ***Core*** > ***Proxy*** section and open the ***HPV_Proxy.txt*** file. Then simply enter your proxies in the format of one line - one proxy. SOCKS5 and HTTPS protocols are supported. An example of adding a proxy can be found in the same folder ***([SCREENSHOT](https://telegra.ph/file/828b1caf4e50e522ffb9e.jpg))***.
 
-# <br>⚙️ Настройка конфига
-- Вы можете включить или выключить апгрейд майнинга WP. Для изменения конфигурации перейдите в ***Core > Config*** и откройте ***HPV_Config.py***. Найдите переменную ***UPDATE*** ***([СКРИНШОТ](https://telegra.ph/file/249c22f89dde8b13867c8.png))***. По умолчанию установлено значение ***True***, что является оптимальным решением. Если хотите, вы можете изменить значение на ***False***, чтобы отключить обновления майнинга.
-- Помимо этого, вы можете настроить желаемое количество монет, получаемых за игру, указав диапазон чисел в конфигурационном файле. Для этого перейдите в ***Core > Config*** и откройте ***HPV_Config.py***. Найдите две переменные: ***WPs*** и ***COINs***. Первая отвечает за желаемое количество получаемых WP за одну игру, вторая — за желаемое количество получаемых COIN за одну игру. По умолчанию установлено значение ***от 159 до 357***, что является оптимальным. Вы можете изменить этот диапазон, но увеличивать максимальное значение выше 550 не рекомендуется. В лучшем случае монеты не будут засчитаны на баланс, в худшем — ваш аккаунт может быть заблокирован в Gamee (не в Telegram).
+# <br>⚙️ Config Setup
+- You can enable or disable WP mining upgrades. To change the configuration, go to ***Core*** > ***Config*** and open ***HPV_Config.py***. Find the ***UPDATE*** variable ***([SCREENSHOT](https://telegra.ph/file/249c22f89dde8b13867c8.png))***. By default, the value is set to ***True***, which is the optimal solution. If you want, you can change the value to ***False*** to disable mining updates.
+- In addition, you can configure the desired amount of coins earned per game by specifying a range of numbers in the configuration file. To do this, go to ***Core*** > ***Config*** and open ***HPV_Config.py***. Find the two variables: ***WPs*** and ***COINs***. The first one is for the desired amount of WP earned per game, and the second one is for the desired amount of COIN earned per game. The default value is set from 159 to 357, which is optimal. You can change this range, but it is not recommended to increase the maximum value above 550. In the best case, the coins will not be credited to the balance, and in the worst case, your account may be blocked in Gamee (not in Telegram).
 
-# <br>🔰 Добавление аккаунтов
-Как упоминалось ранее, для добавления аккаунтов не нужно возиться с **API_ID** и **API_HASH** для каждого из них, что значительно снижает порог входа и экономит ваше время. Всё, что требуется, — это добавить в конфиг специальную ссылку, полученную от бота. Однако, этот процесс доступен только на устройствах Android. Обладателям iPhone придется найти Android-устройство для получения ссылки. **Android - One Love!** Теперь перейдём к делу.
+# <br>🔰 Adding Accounts
+As mentioned earlier, adding accounts does not require dealing with **API_ID** and **API_HASH** for each of them, which significantly reduces the entry threshold and saves your time. All you need to do is add a special link to the config obtained from the bot. However, this process is only available on Android devices. iPhone users will need to find an Android device to obtain the link. **Android - One Love!** Now let's get down to business.
 
-- **Инструкция по получению уникальной ссылки:**
+- **Instructions for obtaining a unique link:**
   ***
-  **1)** *Перейдите в [бота](https://t.me/gamee/start?startapp=ref_1295320967);*<br>
-  **2)** *Введите команду **/start**;*<br>
-  **3)** *Нажмите на кнопку **"Крутить"***;<br>
-  **4)** *Как только нажали на кнопку, сразу отключите интернет, чтобы mini app запустился, но не успел прогрузиться;*<br>
-  **5)** *В результате появится ошибка с заветной ссылкой. Если ссылка не отобразилась, попробуйте без интернета нажать на три точки вверху и выбрать **"Перезагрузить"**. Если ссылка все равно не появилась, повторите этот шаг заново. Важно, чтобы ссылка была очень длинной;*<br>
-  **6)** *Скопируйте весь текст ошибки, затем вставьте его в любом чате, и в тексте ошибки найдите нужную ссылку;*<br>
-  **7)** *Далее перейдите в **Core > Config** и откройте **HPV_Account.json**;*<br>
-  **8)** *В первом ключе введите желаемое имя аккаунта, которое будет отображаться в логах (оптимально использовать юзернейм аккаунта). Желательно писать не более одного слова и на английском языке **([СКРИНШОТ](https://telegra.ph/file/9fea159d1ec26acd6778a.jpg))**;*<br>
-  **9)** *Напротив ключа введите полученную ранее ссылку **([СКРИНШОТ](https://telegra.ph/file/e35b6a41d26d55c357a5e.jpg))**;*<br>
-  **10)** *Таким образом добавляйте ферму аккаунтов;*<br>
-  **11)** *Важно отметить: **ставьте запятые после каждого предпоследнего элемента словаря (т.е. аккаунта), а на последнем элементе запятую ставить не нужно.** В конфиге показан явный пример **([СКРИНШОТ](https://telegra.ph/file/cf351db4e17e353fe6fc9.jpg))**.*
+  **1)** *Go to the [bot](https://t.me/gamee/start?startapp=ref_1295320967);*<br>
+  **2)** *Enter the command **/start**;*<br>
+  **3)** *Click on the **"Spin"** button;<br>
+  **4)** *As soon as you click the button, immediately turn off the internet so that the mini app starts but doesn't have time to load;*<br>
+  **5)** *As a result, an error with the desired link will appear. If the link does not appear, try clicking on the three dots at the top without internet and select **"Reload"**. If the link still does not appear, repeat this step again. It is important that the link is very long;*<br>
+  **6)** *Copy the entire text of the error, then paste it in any chat and find the desired link in the error text;*<br>
+  **7)** *Next, go to **Core > Config** and open **HPV_Account.json**;*<br>
+  **8)** *Enter the desired account name in the first key, which will be displayed in the logs (it is optimal to use the account's username). It is recommended to write no more than one word and in English **([SCREENSHOT](https://telegra.ph/file/9fea159d1ec26acd6778a.jpg))**;*<br>
+  **9)** *Enter the previously obtained link next to the key **([SCREENSHOT](https://telegra.ph/file/e35b6a41d26d55c357a5e.jpg))**;*<br>
+  **10)** *Add the farm accounts in this way;*<br>
+  **11)** *It is important to note: **put commas after each penultimate element of the dictionary (i.e., account), and do not put a comma after the last element.** The config shows a clear example **([SCREENSHOT](https://telegra.ph/file/cf351db4e17e353fe6fc9.jpg))**.*
   ***
-- **Видео инструкция по получению уникальной ссылки: [СМОТРЕТЬ](https://telegra.ph/file/f8567f9c842ec2f656944.mp4)**
+- **Video instructions for obtaining a unique link: [WATCH](https://telegra.ph/file/f8567f9c842ec2f656944.mp4)**
 
-# <br>⚡️ Запуск
+# <br>⚡️ Running
 - **Linux**
-  - ```
+  - ``` 
     cd Gamee && python3 HPV_Gamee.py
     ```
 - **Windows**
-  - Запустите ***"[HPV] Start on Windows.bat"***
+  - Run ***"[HPV] Start on Windows.bat"***
 - **Android**
-  - После подготовки скрипта на ПК и клонирования загруженного репозитория с GitHub в [Termux](https://github.com/termux/termux-app/releases), запустите скрипт следующей командой:
-    - ```
+  - After preparing the script on PC and cloning the downloaded repository from GitHub into [Termux](https://github.com/termux/termux-app/releases), run the script with the following command:
+    - ``` 
       cd Gamee && python HPV_Gamee.py
       ```
 
-# <br><br>💎 Дополнительно
-- **[Telegram канал](https://t.me/+nXUk0aZ0valjYmFi). Подписка на наш канал — это лучшая поддержка и мотивация для продолжения этого и других проектов! 💜**
-- **[Владелец](https://t.me/A_KTO_Tbl)**
+# <br><br>💎 Additional Information
+- **[Telegram channel](https://t.me/+nXUk0aZ0valjYmFi). Subscribing to our channel is the best support and motivation for continuing this and other projects! 💜**
+- **[Owner](https://t.me/A_KTO_Tbl)**
 - **TON:** ```UQChditl95Hy_kMektYwzpW7Os9OCmyriJaAD0YMdxJREp1s```
 - **Base /// BNB Chain /// ETH (EVM):** ```0x4E7Fecf762295CB696e862F4c3a30Ffc586DeDb2```
 - **NEAR:** ```a_kto_tbl.near```
 - **Tron:** ```TSGP8XnjJ9wFNamYs3k17bN13Vg8WZE55s```
 - **Solana:** ```wWMvNzKZFPTr96eGz5hi6aymYsycwvWWrWgHwdXNYPQ```
+

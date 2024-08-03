@@ -3,7 +3,7 @@ from random import choice
 
 
 def HPV_User_Agent() -> str:
-    '''Генерация юзер агентов'''
+    '''Generate user agents'''
 
     HPV = [
 
